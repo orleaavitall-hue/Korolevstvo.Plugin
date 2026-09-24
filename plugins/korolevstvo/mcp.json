@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "kor_game": {
+      "type": "streamable-http",
+      "url": "https://auth-4-184-168-137.sslip.io/kor-game/mcp/oauth"
+    }
+  }
+}

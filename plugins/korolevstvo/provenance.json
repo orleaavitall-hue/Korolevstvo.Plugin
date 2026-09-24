@@ -1,0 +1,13 @@
+{
+  "schema_version": "korolevstvo-plugin-provenance/v7",
+  "version": "0.3.1",
+  "shared_core_digest": "sha256:bb47f342482b95f77ae2f85e9bb1d4dfe8e0f579864968b411b9963410f0ea74",
+  "mcp_dependency": {
+    "logical_name": "kor_game",
+    "transport": "streamable-http",
+    "resource": "https://auth-4-184-168-137.sslip.io/kor-game/mcp/oauth",
+    "authentication": "oauth",
+    "deployment": "remote"
+  },
+  "artifact_model": "portable-agent-plugin-remote-oauth-mcp"
+}

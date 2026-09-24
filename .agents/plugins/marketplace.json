@@ -1,0 +1,20 @@
+{
+  "name": "korolevstvo",
+  "interface": {
+    "displayName": "Korolevstvo"
+  },
+  "plugins": [
+    {
+      "name": "korolevstvo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/korolevstvo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
